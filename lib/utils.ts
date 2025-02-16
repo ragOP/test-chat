@@ -7,7 +7,7 @@ export function cn(...inputs: ClassValue[]) {
 
 export function isWithinOfficeHours(): boolean {
   // Temporarily return true to always show on-hours version
-  return false
+  return true
 
   // Original implementation commented out:
   /*
